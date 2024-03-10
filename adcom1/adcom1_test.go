@@ -5,10 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/onsi/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
-
-	. "github.com/prebid/openrtb/v19/adcom1"
+	. "github.com/risecodes/openrtb/adcom1"
 )
 
 var _ = DescribeTable(

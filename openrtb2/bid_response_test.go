@@ -4,12 +4,6 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"path/filepath"
-
-	. "github.com/prebid/openrtb/v19/openrtb2"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("BidResponse", func() {

@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/prebid/openrtb/v19/adcom1"
+	"github.com/risecodes/openrtb/adcom1"
 )
 
 // Object: RefSettings

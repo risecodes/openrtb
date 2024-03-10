@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/prebid/openrtb/v19/adcom1"
+	"github.com/risecodes/openrtb/adcom1"
 )
 
 // 3.2.18 Object: Device
@@ -186,7 +186,7 @@ type Device struct {
 	//   integer
 	// Description:
 	//   Support for JavaScript, where 0 = no, 1 = yes.
-	JS int8 `json:"js,omitempty"`
+	JS *int8 `json:"js,omitempty"`
 
 	// Attribute:
 	//   geofetch

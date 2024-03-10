@@ -3,7 +3,7 @@ package openrtb2
 import (
 	"encoding/json"
 
-	"github.com/prebid/openrtb/v19/adcom1"
+	"github.com/risecodes/openrtb/adcom1"
 )
 
 // 3.2.7 Object: Video
@@ -277,7 +277,7 @@ type Video struct {
 	//   integer
 	// Description:
 	//   Minimum bit rate in Kbps.
-	MinBitRate int64 `json:"minbitrate,omitempty"`
+	MinBitRate *int64 `json:"minbitrate,omitempty"`
 
 	// Attribute:
 	//   maxbitrate

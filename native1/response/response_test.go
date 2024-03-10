@@ -4,12 +4,6 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"path/filepath"
-
-	. "github.com/prebid/openrtb/v19/native1/response"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Response", func() {
