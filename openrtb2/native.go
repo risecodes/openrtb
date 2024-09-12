@@ -41,7 +41,7 @@ type Native struct {
 	//   Markup Request Object, section 4.1 of OpenRTB Native 1.1+.
 	Request string `json:"request,omitempty"`
 
-	// this is the request object for magnite on native version 1.0
+	// this is the native request object for Magnite on native version 1.0.
 	RequestObject string `json:"requestobj,omitempty"`
 
 	// Attribute:
