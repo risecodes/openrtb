@@ -205,7 +205,7 @@ type Content struct {
 	//   integer
 	// Description:
 	//   0 = not live, 1 = content is live (e.g., stream, live blog).
-	LiveStream int8 `json:"livestream,omitempty"`
+	LiveStream *int8 `json:"livestream,omitempty"`
 
 	// Attribute:
 	//   sourcerelationship
